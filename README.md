@@ -19,6 +19,17 @@
 
 Antes de poder instalar MicroPython, necesitaremos tener instalado Python 3.4 o superior.
 
+Se recomienda usar anaconda que viene con todo lo necesario, lo puedes descargar desde [aquí](https://www.anaconda.com/download/#linux).
+
+Descargamos el .sh, debemos darle permisos de ejecución y lo instalamos siguiendo los pasos que nos salen por consola.
+
+Vamos a instalar algunos elementos extra: con pip (puedes usarlo con virtualenv), dos para ser concretos:
+
+1. pip install anaconda-client (1.2.2 en el momento de escribir este manual).
+2. pip install esptool (2.1 en el momento de escribir este manual).
+
+Ya teniendo anaconda y los pip instalado ejecutamos en la terminal anaconda-navigator, luego vamos a la pestaña (izquierda) environment, root y open terminal. Aquí ya ejecutamos el comando del esptool.
+ 
 ### Instalación
 
 Para poder instalar MicroPython, descargaremos el firmware de la [Página oficial](http://micropython.org/download#esp8266) (Descargar el firmware para el chip correspondiente al ESP8266). Una vez descargado vamos a instalar las herramientas necesarias para flashear el chip con el firmware de MicroPython.
