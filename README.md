@@ -202,6 +202,8 @@ Sabiendo esto, ya podemos crear nuestro primer montaje, comunmente conocido como
 
 ### Primer Ejercicio: El Blink
 
+Para "borrar" los imports anteriores podemos reiniciar el dispositivo con CTRL+D.
+
 Este primer montaje hará que un led parpadee.
 
 Para este montaje necesitaremos:
@@ -239,6 +241,8 @@ Este es un ejemplo de salida digital; seguidamente mostraremos un ejemplo de ent
 **NOTA:** La función ```sleep()``` del módulo ```time``` hace que se espere el tiempo pasado por parámetro en segundos.
 
 ###  Segundo Ejercicio: Pulsadores
+
+Para "borrar" los imports anteriores podemos reiniciar el dispositivo con CTRL+D.
 
 Un pulsador es un ejemplo de entrada digital; ya que permite mandar un pulso (1) o ausencia de él (0); a partir de pulsarlo o no.
 
